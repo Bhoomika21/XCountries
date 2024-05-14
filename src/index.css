@@ -1,0 +1,26 @@
+.contry_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.single_contry {
+  width: 9.33%;
+  border: 1px solid grey;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.single_contry img {
+  max-width: 100%;
+}
+
+.single_contry p {
+  margin: 10px 0;
+}
